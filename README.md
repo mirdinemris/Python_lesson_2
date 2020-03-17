@@ -1,2 +1,2 @@
-# Python_lesson_1
-Course of Python, Lesson 1
+# Course of Python, University of Artificial Intelligence. 
+Course of Python, University of Artificial Intelligence. 
