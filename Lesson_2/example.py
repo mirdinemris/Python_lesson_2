@@ -95,8 +95,11 @@ print()
 print('Вариант №2')
 print()
 print('У вас есть всего 10 попыток для ввода пятерок!')
+
+i = 0
 result_sum = 0
 entered_numb = 0
+
 for i in range(10):
     try:
         entered_numb = int(input('Ввод: '))
@@ -143,7 +146,23 @@ while i < 100:
     sum += i
 print('Сумма ряда от 1 до 100 Выполненая циклом While', ' = ', sum)
 
+'''
+Задача 4
 
+Найти произведение ряда чисел от 1 до 10. Полученный результат вывести на экран.
+'''
+
+print()
+print('-' * 125)
+print()
+print('Задача №4 Найти произведение ряда чисел от 1 до 10. Полученный результат вывести на экран.')
+
+multipl = 1
+
+for i in range (1, 11):
+    multipl = multipl * i
+print()
+print('Результат произведений ряда от 1 до 10: ', multipl)
 
 '''
 Задача 5
@@ -213,21 +232,21 @@ print('-' * 125)
 print()
 print('Задача №7 Найти произведение цифр числа.')
 print()
-term1 = 0
-term2 = 0
+multipl_1 = 0
+multipl_2 = 0
 result = 1
 results = 0
 integer_number = int(input('Введите перемножаемое число: '))
 
 while integer_number > 0:
-     term1 = integer_number%10
+     multipl_1 = integer_number%10
      integer_number = integer_number//10
      if integer_number == 0:
-         result = result * term1
+         result = result * multipl_1
          break
-     term2 = integer_number % 10
+     multipl_2 = integer_number % 10
      integer_number = integer_number//10
-     results = term1 * term2
+     results = multipl_1 * multipl_2
      result = result * results
 
 print()
