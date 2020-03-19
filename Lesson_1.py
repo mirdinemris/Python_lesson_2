@@ -9,8 +9,7 @@ while b != c:
     if a != c:
         term1 = random.randrange(0, 9)
         term2 = random.randrange(0, 9)
-        symbols = ['-', '+']
-        symbol = random.choice(symbols)
+        symbol = random.choice(['-', '+'])
         print("\033[37m♣ Капча! ♣")
         print(term1, symbol, term2, )
         c = int(input('Введите Ответ ='))
@@ -30,6 +29,6 @@ print('\033[32m ♥ Доступ_разрешен ♥')
 url = 'https://www.cbr-xml-daily.ru/daily_json.js'
 response = requests.get(url)
 data = json.loads(response.text)
-print('Последние новости из страны Чукепуксов!')
+print('Последние вести из страны Чукепуксов!')
 print(data)
 
