@@ -66,9 +66,11 @@ while i < 11:
     но осуществить мне не удалось.
     '''
 
-    print('Ввод цифры №', i, ': ')
+    # print('Ввод цифры №', i, ': ')
     try:
-        entered_numb = int(input())
+        # entered_numb = int(input())
+        entered_numb = int(input(f'Ввод цифры № {i}: '))
+        # entered_numb = int(input('Ввод цифры № {i}:'.format(i=i)))
     except ValueError:
         threat_list = ['Я не устану повтрять: "Вводи цифру!', 'Ану, Води цифру!', 'Будте любезны, ввести цифру!!!', 'Вводи цифру! А то пожалеешь...', 'Я не сдамся пока ты не введешь цифру!']
         threat = random.choice(threat_list)
