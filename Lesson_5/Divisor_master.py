@@ -123,11 +123,6 @@ def divider_list (natural_num):
         if natural_num % num_list[n] == 0:
             div_list.append(num_list[n])
         n += 1
-    # i = 0
-    # while i < num_list[-2]:
-    #     if natural_num % num_list[i] == 0:
-    #         div_list.append(num_list[i])
-    #     i += 1
     return div_list, print('\nДелителями числа ', natural_num, ' являются:', '\n',div_list, sep='')
 
 # Задача №3
@@ -143,6 +138,7 @@ def big_simple_div(natural_num):
         if natural_num % num_list[n] == 0:
             div_list.append(num_list[n])
         n += 1
+
     div_list = list(filter(lambda x: x in simple_nums, div_list))
     div_list.insert(1,1)
     div_list = list(sorted(div_list, reverse=True))
@@ -184,7 +180,7 @@ def multi_canon (natural_num):
     result = list(map(lambda x: list(x), result))
     x = 0
     """ Делаем степени степенями """
-    for i in range(len(result)):
+    for i in range(len(result)):            # Возможно ли как то оптимизировать этот код?
         if result[x][1] == 1:
             result[x][1] = ('')
         elif result[x][1] == 2:
