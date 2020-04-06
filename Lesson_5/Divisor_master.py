@@ -178,28 +178,12 @@ def multi_canon (natural_num):
     result = dict(Counter(multiplies))
     result = list(result.items())
     result = list(map(lambda x: list(x), result))
-    x = 0
+
     """ Делаем степени степенями """
-    for i in range(len(result)):            # Возможно ли как то оптимизировать этот код?
-        if result[x][1] == 1:
-            result[x][1] = ('')
-        elif result[x][1] == 2:
-            result[x][1] = '²'
-        elif result[x][1] == 3:
-             result[x][1] = '³'
-        elif result[x][1] == 4:
-            result[x][1] = '⁴'
-        elif result[x][1] == 5:
-             result[x][1] = '⁵'
-        elif result[x][1] == 6:
-             result[x][1] = '⁶'
-        elif result[x][1] == 7:
-             result[x][1] = '⁷'
-        elif result[x][1] == 8:
-             result[x][1] = '⁸'
-        elif result[x][1] == 9:
-             result[x][1] = '⁹'
-        x += 1
+
+    simbol_dict ={1:'',2: '²',3:'³',4:'⁴',5:'⁵',6:'⁶',7:'⁷',8:'⁸',9:'⁹'}
+    for i in range(len(result)):
+        result[i][1] = simbol_dict[result[i][1]]
 
     """ Маленькая функция для красоты результата"""
     def printer (result):
@@ -216,6 +200,7 @@ def multi_canon (natural_num):
     file.close()
     file = open('result.txt', 'r+', encoding='utf-8')
     res = str(file.readlines())
+    file.close()
     return print('\nКаноническое разложение числа на множители:', '\n',natural_num, '=', res[2:-5])
 
 
