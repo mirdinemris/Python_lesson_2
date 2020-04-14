@@ -1,0 +1,113 @@
+[33mcommit 13ecb2e3b474309062c9b5b538fa88d38da01e1e[m[33m ([m[1;36mHEAD -> [m[1;32mTest_branch[m[33m, [m[1;31morigin/Test_branch[m[33m)[m
+Author: mirdinemris <mirdinemris@mail.ru>
+Date:   Mon Apr 6 20:09:46 2020 +0300
+
+    Tests add
+
+[33mcommit ec48f1b796cc81637ccd99c64ddd4778dde5c8ac[m
+Author: mirdinemris <mirdinemris@mail.ru>
+Date:   Mon Apr 6 16:01:28 2020 +0300
+
+    Comments add
+
+[33mcommit ab4071205e12f54f47dfe23f193bdd93dbf9e34c[m
+Author: mirdinemris <mirdinemris@mail.ru>
+Date:   Sun Apr 5 21:58:22 2020 +0300
+
+    Divior is done
+
+[33mcommit 029842f52e76c30f1353f4f7eaecc275e87b5557[m
+Author: mirdinemris <mirdinemris@mail.ru>
+Date:   Wed Apr 1 23:58:29 2020 +0300
+
+    my_math_modul
+
+[33mcommit eacab90069304a40367c9bdb0bc45157d0239b4b[m
+Author: mirdinemris <mirdinemris@mail.ru>
+Date:   Wed Apr 1 21:39:24 2020 +0300
+
+    Lesson_4
+
+[33mcommit 3c32ec283fd28e8e8720ab1b5f6538066fcb2b9e[m
+Author: mirdinemris <mirdinemris@mail.ru>
+Date:   Thu Mar 26 19:25:15 2020 +0300
+
+    обавил Venv
+
+[33mcommit 92aa5df031e279a167c4f39515aa48c933ae723b[m
+Author: mirdinemris <mirdinemris@mail.ru>
+Date:   Thu Mar 26 19:22:13 2020 +0300
+
+    Завершил Lesson_3
+
+[33mcommit c37688b6fe645f550c2e6fc69a0ce6e1948d376b[m
+Author: mirdinemris <36952418+mirdinemris@users.noreply.github.com>
+Date:   Thu Mar 19 20:25:10 2020 +0300
+
+    Rename example to Lesson_2
+
+[33mcommit 3d0fd40ce7b11f6651a66e577d849c721e05e800[m
+Author: mirdinemris <36952418+mirdinemris@users.noreply.github.com>
+Date:   Thu Mar 19 20:24:06 2020 +0300
+
+    Delete Lesson_2.py
+
+[33mcommit 2dd1c561b405a5f3b45caad669a223f9f3a996c4[m
+Author: mirdinemris <mirdinemris@mail.ru>
+Date:   Thu Mar 19 20:23:03 2020 +0300
+
+    Add задача №4
+
+[33mcommit 12b20ed201f14587ae952c448275523297af5db2[m
+Author: mirdinemris <mirdinemris@mail.ru>
+Date:   Thu Mar 19 20:02:07 2020 +0300
+
+    Lesson_2_Complete
+
+[33mcommit ab5c48132d7e9c567314eaa69868e0828bbbbc66[m
+Author: mirdinemris <mirdinemris@mail.ru>
+Date:   Tue Mar 17 12:06:06 2020 +0300
+
+    Добавил Чукепуксов
+
+[33mcommit aaa7b4dfe22c7f2a67c0eba1bd421cf086d4f637[m
+Author: mirdinemris <36952418+mirdinemris@users.noreply.github.com>
+Date:   Tue Mar 17 08:55:53 2020 +0300
+
+    Update Lesson_1.py
+
+[33mcommit 3b21e8c3e046d6d2b13ca3f8c0d43cd855fdddab[m
+Author: mirdinemris <36952418+mirdinemris@users.noreply.github.com>
+Date:   Tue Mar 17 05:08:54 2020 +0300
+
+    Update README.md
+
+[33mcommit 0e80dd923e080474d48c504a2787bf56c121c1b1[m
+Author: mirdinemris <36952418+mirdinemris@users.noreply.github.com>
+Date:   Tue Mar 17 05:03:02 2020 +0300
+
+    Rename Lesson_one.py to Lesson_1.py
+
+[33mcommit bdc97b2fdf8dfbea4a91523261853470adf3d83d[m
+Author: mirdinemris <36952418+mirdinemris@users.noreply.github.com>
+Date:   Tue Mar 17 05:02:03 2020 +0300
+
+    Rename main.py to Lesson_one.py
+
+[33mcommit b942cbf4c186ffc07525e770d3b66f00358cb295[m
+Author: mirdinemris <36952418+mirdinemris@users.noreply.github.com>
+Date:   Tue Mar 17 04:50:56 2020 +0300
+
+    Update README.md
+
+[33mcommit a4a2fefc7cec1e50f7c196f3a2e60f61480f1ce4[m
+Author: mirdinemris <mirdinemris@mail.ru>
+Date:   Tue Mar 17 04:19:15 2020 +0300
+
+    Our first commit
+
+[33mcommit 7bcc893a354ba107d1ba848bd2bfcf9c9316a15b[m
+Author: mirdinemris <36952418+mirdinemris@users.noreply.github.com>
+Date:   Tue Mar 17 03:02:41 2020 +0300
+
+    Initial commit
